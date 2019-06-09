@@ -1,0 +1,4 @@
+﻿data/origin/*/*.bat
+data/origin/*.bat
+
+/*/list.txt
