@@ -22,6 +22,12 @@ public class Poem {
     }
 
     public Poem setTitle(String title) {
+        if (title.startsWith("\"")) {
+            title = title.substring(1);
+        }
+        if (title.endsWith("\"")) {
+            title = title.substring(0, title.length() - 1);
+        }
         this.title = title;
         return this;
     }

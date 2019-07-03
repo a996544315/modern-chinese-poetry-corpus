@@ -5,6 +5,8 @@ import cn.mordernpoem.bean.Poem;
 import cn.mordernpoem.bean.Poet;
 
 import java.io.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -118,19 +120,24 @@ public class FileHelper {
     }
 
     private void write(String path, Poem p) {
-        try (FileWriter writer = new FileWriter(path, false);) {
+        File file = new File(path);
+        try (FileOutputStream fo = new FileOutputStream(file);
+             OutputStreamWriter ow = new OutputStreamWriter(fo, StandardCharsets.UTF_8);
+             Writer writer = new BufferedWriter(ow)) {
             writer.write("title:" + p.getTitle() + "\n");
             writer.write("date:" + p.getDate() + "\n\n");
 
             List<String> lines = p.getLines();
             int i = lines.size();
             for (String s : lines) {
-                if (--i > 0) s += "\n";
+                if (--i > 0) {
+                    s += "\n";
+                }
                 writer.append(s);
             }
             writer.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
         }
     }
 }
