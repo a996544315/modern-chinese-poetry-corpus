@@ -41,9 +41,11 @@ public class Count extends BaseCommand {
             s = reader.read();
             if (isArg(s)) {
                 s = getArg(s);
-                if ("s".equals(s)) poemC = false;
-                else if ("a".equals(s)) all = true;
-                else {
+                if ("s".equals(s)) {
+                    poemC = false;
+                } else if ("a".equals(s)) {
+                    all = true;
+                } else {
                     for (char c : s.toCharArray()) {
                         switch (c) {
                             case 't':
@@ -60,11 +62,16 @@ public class Count extends BaseCommand {
                         }
                     }
                 }
-            } else
+            } else {
                 query = s;
+            }
         }
-        if (query == null) all = true;
-        if (!(title || content)) title = true;
+        if (query == null) {
+            all = true;
+        }
+        if (!(title || content)) {
+            title = true;
+        }
         return true;
     }
 
@@ -75,7 +82,9 @@ public class Count extends BaseCommand {
 
         if (!all) {
             Consumer<Poem> poemConsumer = p -> {
-                if (title && p.getTitle().contains(query)) titleContains.add(p);
+                if (title && p.getTitle().contains(query)) {
+                    titleContains.add(p);
+                }
                 List<String> appearLines = new ArrayList<>();
 
                 for (String s : p.getLines()) {

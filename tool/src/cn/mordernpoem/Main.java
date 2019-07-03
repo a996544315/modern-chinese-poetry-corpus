@@ -30,7 +30,7 @@ public class Main {
             "使用help加具体指令获取指令的具体帮助信息";
 
     public static void main(String[] args) throws Exception {
-        // 强制使用urf-8
+        // 强制使用utf-8
         System.setProperty("file.encoding", "utf-8");
 
         if (args.length == 0) {
@@ -42,12 +42,14 @@ public class Main {
 
         if (Objects.equals(args[0], "help")) {
             if (args.length > 1) {
-                if ((commandType = COMMAND_MAP.get(args[1])) != null)
+                if ((commandType = COMMAND_MAP.get(args[1])) != null) {
                     newInstance(commandType).help();
-                else
+                } else {
                     System.out.println("没有该指令：" + args[1]);
-            } else
+                }
+            } else {
                 help();
+            }
             return;
         }
 

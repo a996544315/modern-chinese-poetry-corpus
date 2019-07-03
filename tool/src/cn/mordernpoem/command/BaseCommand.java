@@ -77,13 +77,19 @@ public abstract class BaseCommand {
 
     void iterate(Consumer<Poet> poetConsumer, Predicate<Poet> poetPredicate, Consumer<Poem> poemConsumer, Predicate<Poem> poemPredicate) {
         final Predicate<Poem> finalPredicate = (poemPredicate == null) ? a -> true : poemPredicate;
-        if (poetPredicate == null) poetPredicate = a -> true;
+        if (poetPredicate == null) {
+            poetPredicate = a -> true;
+        }
         FileHelper fileHelper = new FileHelper();
         List<Poet> poets = fileHelper.getAll();
         poets.stream().filter(poetPredicate).forEach(p -> {
             List<Poem> poems = fileHelper.findByPoet(p);
-            if (poetConsumer != null) poetConsumer.accept(p);
-            if (poemConsumer != null) poems.stream().filter(finalPredicate).forEach(poemConsumer::accept);
+            if (poetConsumer != null) {
+                poetConsumer.accept(p);
+            }
+            if (poemConsumer != null) {
+                poems.stream().filter(finalPredicate).forEach(poemConsumer);
+            }
         });
     }
 

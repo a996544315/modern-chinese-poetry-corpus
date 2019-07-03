@@ -63,8 +63,12 @@ public class Poem {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj == null) return false;
-        if (!(obj instanceof Poem)) return false;
+        if (obj == null) {
+            return false;
+        }
+        if (!(obj instanceof Poem)) {
+            return false;
+        }
         Poem o = (Poem) obj;
         return Objects.equals(title, o.title) && Objects.equals(poet, o.poet);
     }

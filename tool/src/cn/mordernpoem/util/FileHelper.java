@@ -22,8 +22,8 @@ public class FileHelper {
         String s = Main.class.getProtectionDomain().getCodeSource().getLocation().getPath();
         s = new File(s).getAbsolutePath();
         s = s.substring(0, s.lastIndexOf(fs));
-//        ROOT_DIR_PATH = s.substring(0, s.lastIndexOf(fs)) + fs + "data" + fs + "origin" + fs;
-        ROOT_DIR_PATH = "C:\\workspace\\modern-chinese-poetry-corpus\\data\\origin\\";
+        ROOT_DIR_PATH = s.substring(0, s.lastIndexOf(fs)) + fs + "data" + fs + "origin" + fs;
+//        ROOT_DIR_PATH = "C:\\workspace\\modern-chinese-poetry-corpus\\data\\origin\\";
     }
 
     public List<Poet> getAll() {
