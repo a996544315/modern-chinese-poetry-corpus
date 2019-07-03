@@ -2,3 +2,8 @@
 data/origin/*.bat
 
 /*/list.txt
+
+*.iml
+*.ipr
+*.iws
+*/target/
