@@ -35,7 +35,7 @@
                         <phase>package</phase>
                         <configuration>
                             <tasks>
-                                <copy todir="../lib">
+                                <copy todir="./">
                                     <fileset dir="${project.build.directory}">
                                         <include name="${project.artifactId}-${project.version}.jar"/>
                                     </fileset>
