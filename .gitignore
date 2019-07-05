@@ -7,3 +7,8 @@ data/origin/*.bat
 *.ipr
 *.iws
 */target/
+
+*/.idea/
+
+
+.idea/
