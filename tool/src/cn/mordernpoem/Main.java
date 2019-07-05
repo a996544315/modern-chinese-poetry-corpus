@@ -31,7 +31,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         // 强制使用utf-8
-        System.setProperty("file.encoding", "utf-8");
+        System.setProperty("file.encoding", "utf8");
 
         // 检查java版本
         String version = System.getProperty("java.version");
