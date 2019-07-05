@@ -2,7 +2,7 @@ package cn.mordernpoem;
 
 import cn.mordernpoem.command.BaseCommand;
 import cn.mordernpoem.command.Clean;
-import cn.mordernpoem.command.Count;
+import cn.mordernpoem.command.Find;
 
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
@@ -18,14 +18,14 @@ public class Main {
 
     static {
         COMMAND_MAP = new HashMap<>();
-        COMMAND_MAP.put("count", Count.class);
-        COMMAND_MAP.put("clean", Clean.class);
+        COMMAND_MAP.put("count", Find.class);
+        COMMAND_MAP.put("find", Clean.class);
     }
 
     private static final String HELP = "全部指令：\n" +
             "clean        清洗文本\n" +
-            "count        统计数目\n" +
-            "find         查找\n" +
+            "find         查找数目\n" +
+            "count        统计与计算\n" +
             "help         获取帮助信息\n\n" +
             "使用help加具体指令获取指令的具体帮助信息";
 

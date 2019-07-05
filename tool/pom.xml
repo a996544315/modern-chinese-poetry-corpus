@@ -28,6 +28,11 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>zhy</groupId>
+                <artifactId>leveldb-helper</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </plugin>
+            <plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <executions>
                     <execution>
