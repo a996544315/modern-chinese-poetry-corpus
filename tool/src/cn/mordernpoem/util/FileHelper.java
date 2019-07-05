@@ -25,7 +25,6 @@ public class FileHelper {
         s = new File(s).getAbsolutePath();
         s = s.substring(0, s.lastIndexOf(fs));
         ROOT_DIR_PATH = s.substring(0, s.lastIndexOf(fs)) + fs + "data" + fs + "origin" + fs;
-//        ROOT_DIR_PATH = "C:\\workspace\\modern-chinese-poetry-corpus\\data\\origin\\";
     }
 
     public List<Poet> getAll() {
@@ -52,7 +51,9 @@ public class FileHelper {
         String[] childFile = file.list();
         if (childFile != null) {
             for (String s : childFile) {
-                if (!s.endsWith("pt")) continue;
+                if (!s.endsWith("pt")) {
+                    continue;
+                }
                 File f = new File(ROOT_DIR_PATH + "/" + poet.getDirName() + "/" + s);
                 try {
                     BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream(f));
@@ -78,8 +79,9 @@ public class FileHelper {
                             }
                         }
                     }
-                    if (poem.getTitle() != null)
+                    if (poem.getTitle() != null) {
                         poems.add(poem);
+                    }
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

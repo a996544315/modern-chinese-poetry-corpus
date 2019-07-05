@@ -33,6 +33,16 @@ public class Main {
         // 强制使用utf-8
         System.setProperty("file.encoding", "utf-8");
 
+        // 检查java版本
+        String version = System.getProperty("java.version");
+        int dotIndex = version.indexOf('.', 2);
+        String verNum = version.substring(2, dotIndex);
+        if (Integer.valueOf(verNum) < 8) {
+            System.out.println("Java版本过低，支持Java 8以上。当前" + version);
+            return;
+        }
+
+
         if (args.length == 0) {
             help();
             return;

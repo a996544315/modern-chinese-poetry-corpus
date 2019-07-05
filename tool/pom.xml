@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.mordenpoem</groupId>
     <artifactId>poem-tool</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-release.01</version>
     <packaging>jar</packaging>
     <build>
         <sourceDirectory>src</sourceDirectory>
