@@ -18,8 +18,8 @@ public class Main {
 
     static {
         COMMAND_MAP = new HashMap<>();
-        COMMAND_MAP.put("count", Find.class);
-        COMMAND_MAP.put("find", Clean.class);
+        COMMAND_MAP.put("find", Find.class);
+        COMMAND_MAP.put("clean", Clean.class);
     }
 
     private static final String HELP = "全部指令：\n" +
@@ -34,13 +34,13 @@ public class Main {
         System.setProperty("file.encoding", "utf8");
 
         // 检查java版本
-        String version = System.getProperty("java.version");
-        int dotIndex = version.indexOf('.', 2);
-        String verNum = version.substring(2, dotIndex);
-        if (Integer.valueOf(verNum) < 8) {
-            System.out.println("Java版本过低，支持Java 8以上。当前" + version);
-            return;
-        }
+//        String version = System.getProperty("java.version");
+//        int dotIndex = version.indexOf('.', 2);
+//        String verNum = version.substring(2, dotIndex);
+//        if (Integer.valueOf(verNum) < 8) {
+//            System.out.println("Java版本过低，支持Java 8以上。当前" + version);
+//            return;
+//        }
 
 
         if (args.length == 0) {
