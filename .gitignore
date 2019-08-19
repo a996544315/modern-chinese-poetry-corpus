@@ -1,7 +1,7 @@
 ﻿data/origin/*/*.bat
 data/origin/*.bat
 
-/*/list.txt
+data/**/list.txt
 
 *.iml
 *.ipr
