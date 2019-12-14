@@ -19,7 +19,31 @@
 + 反馈
 	+ 邮箱：zhanghengyang1996@qq.com
 	+ <a href="http://148.70.16.14">我的个人主页</a>
-## 二、诗人目录
+	
+## 二、工具
+
++ Windows
+
+```batch
+cd %项目根目录%
+poem
+```
+
++ Linux/MacOS
+```shell
+cd ${项目根目录}
+sh poem.sh
+```
+
++ 具体命令
+
+	+ help：查看帮助信息
+	
+	+ count：查询或统计
+
+	+ clean：格式化文本，编辑时使用
+
+## 三、诗人目录
 
 |笔/姓名|作品（集）
 |:-:|:-|
