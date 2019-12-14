@@ -1,14 +1,3 @@
 ﻿data/origin/*/*.bat
-data/origin/*.bat
 
 data/**/list.txt
-
-*.iml
-*.ipr
-*.iws
-*/target/
-
-*/.idea/
-
-
-.idea/
