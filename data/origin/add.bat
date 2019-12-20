@@ -1,24 +1,25 @@
 @echo off
 
-REM è¯·å°†è¯¥è„šæœ¬ç§»åŠ¨åˆ°å…·ä½“çš„è¯—äººç›®å½•ä¸‹å†ä½¿ç”¨
-REM %1%=è¯—æ­Œæ ‡é¢˜
-REM %2%=åˆ›ä½œæ—¥æœŸ
+REM Çë½«¸Ã½Å±¾ÒÆ¶¯µ½¾ßÌåµÄÊ«ÈËÄ¿Â¼ÏÂÔÙÊ¹ÓÃ
+REM %1%=Ê«¸è±êÌâ
+REM %2%=´´×÷ÈÕÆÚ
 
 if "%1%"=="" (
-echo è¯·è¾“å…¥è¯—æ­Œåç§°
+echo ÇëÊäÈëÊ«¸èÃû³Æ
 goto entrance
 ) 
 
+set fileName=%1%.pt
+
 if exist %fileName% (
-echo æ–‡ä»¶å·²å­˜åœ¨ã€‚å¦‚éœ€è¦†ç›–ï¼Œè¯·å…ˆä½¿ç”¨ä¸‹è¿°å‘½ä»¤åˆ é™¤æ—§æ–‡ä»¶
+echo ÎÄ¼þÒÑ´æÔÚ¡£ÈçÐè¸²¸Ç£¬ÇëÏÈÊ¹ÓÃÏÂÊöÃüÁîÉ¾³ý¾ÉÎÄ¼þ
 echo del %fileName%
 goto entrance
 )
 
-REM ä½¿ç”¨UTF-8
+REM Ê¹ÓÃUTF-8
 chcp 65001
 
-set fileName=%1%.pt
 set firstLine=title:%1%
 set nextLine=date:%2%
 echo %firstLine% > %fileName%
