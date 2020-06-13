@@ -1,3 +1,4 @@
 ﻿data/origin/*/*.bat
+data/origin/*/*.sh
 
 data/**/list.txt
