@@ -2,8 +2,8 @@
 ![](https://img.shields.io/badge/only-bot-green)
 ![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E7%8E%B0%E4%BB%A3%E8%AF%97-red)
 ![](https://img.shields.io/badge/%E2%9D%A4-%E5%AD%A6%E9%99%A2%E5%90%91-blue)
-![](https://img.shields.io/badge/poems-1054-yellowgreen)
-![](https://img.shields.io/badge/poets-16-lightgrey)
+![](https://img.shields.io/badge/poems-1067-yellowgreen)
+![](https://img.shields.io/badge/poets-17-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
 
 ## 一、前言
