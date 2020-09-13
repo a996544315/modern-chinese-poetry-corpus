@@ -1,4 +1,7 @@
 
+# 华语现代诗歌集合
+====
+
 ![](https://img.shields.io/badge/only-bot-green)
 ![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E7%8E%B0%E4%BB%A3%E8%AF%97-red)
 ![](https://img.shields.io/badge/%E2%9D%A4-%E5%AD%A6%E9%99%A2%E5%90%91-blue)
@@ -6,7 +9,9 @@
 ![](https://img.shields.io/badge/poets-20-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
 
-## 一、前言
+[English](README.en.md)
+
+## 前言
 
 ```
 NLP × poetry has no way !
@@ -28,7 +33,7 @@ NLP × poetry has no way !
 + 反馈
 	+ 邮箱：returnzhy1996@outlook.com
 	
-## 二、工具
+## 工具
 
 >需要<u>**JDK10**</u>以上，且已将java指令添加至环境变量
 
@@ -53,7 +58,7 @@ sh poem.sh
 
 	+ clean：格式化文本，编辑时使用
 
-## 三、诗人目录
+## 诗人目录
 
 |笔/姓名|作品（集）
 |:-:|:-|
@@ -76,8 +81,7 @@ sh poem.sh
 |张枣|《春秋来信》《张枣的诗》
 |周欣祺|《退化》
 
-## 四、 将来
+## 将来
 
 + 将工具脚本改为 bash/shell 编写，不再依赖 JDK 环境。
 + 通过 Github 提供的 API，为不会使用 git 但有意愿参与项目维护的众好们，提供更友好的操作页面。
-+ 通过众筹搭建 API 服务器，便于更多的诗歌爱好者能更简单地查询。有意愿的朋友可以联系我的邮箱。
