@@ -1,6 +1,5 @@
 
 # The Collection of Chinese Modern Poetry
-====
 
 ![](https://img.shields.io/badge/only-bot-green)
 ![](https://img.shields.io/badge/zh-poetry-red)
