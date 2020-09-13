@@ -9,7 +9,7 @@
 ## 一、前言
 
 ```
-NLP × poet has no way !
+NLP × poetry has no way !
 ```
 
 + 该目录及子目录下所有作品著作权归原作者所有。**`禁止用于任何商业用途`**。
