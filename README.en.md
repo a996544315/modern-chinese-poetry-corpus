@@ -4,8 +4,8 @@
 ![](https://img.shields.io/badge/only-bot-green)
 ![](https://img.shields.io/badge/zh-poetry-red)
 ![](https://img.shields.io/badge/%E2%9D%A4-academic-blue)
-![](https://img.shields.io/badge/poems-1152-yellowgreen)
-![](https://img.shields.io/badge/poets-20-lightgrey)
+![](https://img.shields.io/badge/poems-1160-yellowgreen)
+![](https://img.shields.io/badge/poets-21-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
 
 [简体中文](README.md)
@@ -65,6 +65,7 @@ sh poem.sh
 |曹疏影|《拉线木偶》《茱萸箱》《金雪》
 |还叫悟空|《兰花和兰花的影子》《乔小慧》
 |海子|《土地》《海子、骆一禾作品集》《海子的诗》
+|韩东|《吉祥的老虎》《爸爸在天上看我》
 |黄灿然|《十年诗选》《世界的隐喻》《游泳池畔的冥想》《奇迹集》《发现集》《我的灵魂》
 |骆一禾|《骆一禾诗全编》
 |脱脱不花|《我是使爸妈衰老的诸多事件之一》
