@@ -12,9 +12,6 @@
 
 ## Introduction
 
-```
-NLP × poetry has no way !
-```
 + To collect as many excellent Chinese modern poems as far.
 + The copyright of all works under this project belongs to the original authors or poets. **`NO COMMERCIAL USE IS ALLOWED`**.
 + Contracts
