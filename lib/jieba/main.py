@@ -23,7 +23,7 @@ for path, dir_list, file_list in origin_dir:
           seged_file.write(line+'\r\n')
         else:
           seged = jieba.posseg.cut(line)
-          seged_file.write('/'.join(map(lambda x: "{}[{}]".format(x.word,x.flag),seged))+'\r\n')
+          seged_file.write('|'.join(map(lambda x: "{}/{}".format(x.word,x.flag),seged))+'\r\n')
         index = index + 1
       origin_file.close()
       seged_file.close()
