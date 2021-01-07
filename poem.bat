@@ -1,8 +1,7 @@
 @echo off
 
-set version=0.0.1
 set vmOptions=-Dfile.encoding=UTF-8
-set jarpath=.\lib\poem-tool-%version%.jar
+set jarpath=.\lib\tool.jar
 
 set allparam=
 

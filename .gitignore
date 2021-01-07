@@ -2,3 +2,6 @@
 data/origin/*/*.sh
 
 data/**/list.txt
+tool/.idea
+tool/target
+tool/tool.*
