@@ -7,6 +7,7 @@
 ![](https://img.shields.io/badge/poems-1160-yellowgreen)
 ![](https://img.shields.io/badge/poets-21-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=sheepzh.poetry)
 
 [English](README.en.md)
 
