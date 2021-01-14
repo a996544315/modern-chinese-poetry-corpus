@@ -4,8 +4,8 @@
 ![](https://img.shields.io/badge/only-bot-green)
 ![](https://img.shields.io/badge/zh-poetry-red)
 ![](https://img.shields.io/badge/%E2%9D%A4-academic-blue)
-![](https://img.shields.io/badge/poems-1160-yellowgreen)
-![](https://img.shields.io/badge/poets-21-lightgrey)
+![](https://img.shields.io/badge/poems-5560-yellowgreen)
+![](https://img.shields.io/badge/poets-525-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
 
 [简体中文](README.md)
