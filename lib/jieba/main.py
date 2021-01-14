@@ -4,6 +4,8 @@ import jieba
 import jieba.analyse
 import jieba.posseg
 
+jieba.load_userdict('dictionary.txt')
+
 origin_dir_path = os.path.join('..', '..', 'data', 'origin')
 seged_dir_path = os.path.join('..', '..', 'data', 'seged')
 origin_dir = os.walk(origin_dir_path)
