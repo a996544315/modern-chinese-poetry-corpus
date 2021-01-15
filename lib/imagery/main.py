@@ -36,7 +36,7 @@ class Imagery():
 for path, dir_list, file_list in seged_dir:
   for poem_dir in dir_list:
     poem_dir_path = os.path.join(path,poem_dir)
-    json_path = poem_dir_path.replace(seged_dir_path, imagery_dir_path)+'.json'
+    json_path = poem_dir_path.replace(seged_dir_path, imagery_dir_path)+'.txt'
     json_file = open(json_path,'w')
 
     for pp, dd, ff in os.walk(poem_dir_path):
