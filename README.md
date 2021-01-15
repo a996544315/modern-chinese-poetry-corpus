@@ -1,34 +1,47 @@
 
 # 华语现代诗歌集合
 
-![](https://img.shields.io/badge/only-bot-green)
+![](https://img.shields.io/badge/only-%E2%9D%A4-green)
 ![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E7%8E%B0%E4%BB%A3%E8%AF%97-red)
-![](https://img.shields.io/badge/%E2%9D%A4-%E5%AD%A6%E9%99%A2%E5%90%91-blue)
 ![](https://img.shields.io/badge/poems-5560-yellowgreen)
 ![](https://img.shields.io/badge/poets-525-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheepzh.poetry)
-
-[English](README.en.md)
+![](https://img.shields.io/github/last-commit/sheepzh/poetry)
 
 ## 前言
 
 + 该目录及子目录下所有作品著作权归原作者所有。**`禁止用于任何商业用途`**。
 + 维护公约
 	+ 收录诗人而不创造诗人。
-	+ 作品应认真校核。
-	+ 新增诗人请修改该文档内的诗人目录（按字母序）。
-+ 作品格式
-	+ 文件名格式：诗歌标题(_组诗).pt
-	+ 内容格式：
-		+ 首行：title:[标题]
-		+ 次行：date:[YYYYMMDD/YYYYMM/YYYY/留空，创作日期]
-		+ 空一行开始正文
-		+ 如果小节有节序或者标题，每一小节的节尾与次节标题或节序之间空一行，节序或者小节标题与该节内容之间空一行。
-		+ 正文末不空行
++ 数据格式见 
 + 反馈
 	+ 邮箱：returnzhy1996@outlook.com
-	
+	+ ISSUES：[<u>Github</u>](https://github.com/sheepzh/poetry/issues)
+
+## 目录
+
+
+```
++++ data     # 诗歌数据：原始数据、分词数据、意象分析数据
+|  
++++ doc      # 文档相关
+|
++++ lib      # 相关工具库
+|	|
+|	+++ tool.jar    # 命令行工具依赖
+|	|
+|	+++ imagery     # 意象探测 Python3 脚本
+|	|
+|	+++ jieba       # 结巴分词相关 Python3 脚本，以及自定义字典
+|
++++ tool     # tool.jar 项目源码
+|
++++ poem.bat # Windows 命令行工具
+|
++++ poem.sh  # unix 命令行工具
+```
+
 ## 工具
 
 >需要<u>**JDK8**</u>以上，且已将java指令添加至环境变量
@@ -52,7 +65,7 @@ sh poem.sh
 	
 	+ count：查询或统计
 
-	+ clean：格式化文本，编辑时使用
+	+ clean：格式化文本
 
 ## 诗人目录
 
@@ -80,5 +93,6 @@ sh poem.sh
 
 ## 将来
 
-+ 将工具脚本改为 bash/shell 编写，不再依赖 JDK 环境。
-+ 通过 Github 提供的 API，为不会使用 git 但有意愿参与项目维护的众好们，提供更友好的操作页面。
++ 多维度的——诗人性别，写作年代，流派等——云词图展示。
++ 为不会使用 git 但有意愿参与项目维护的众好们，提供更友好的操作页面。
++ WebHook 实现自动化整理增量数据。
