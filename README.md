@@ -14,7 +14,7 @@
 + 该目录及子目录下所有作品著作权归原作者所有。**`禁止用于任何商业用途`**。
 + 维护公约
 	+ 收录诗人而不创造诗人。
-+ 数据格式见 
++ 数据格式见 [<u>data/README.md</u>](./data/README.md)
 + 反馈
 	+ 邮箱：returnzhy1996@outlook.com
 	+ ISSUES：[<u>Github</u>](https://github.com/sheepzh/poetry/issues)
