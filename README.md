@@ -17,7 +17,7 @@
 + 数据格式见 [<u>data/README.md</u>](./data/README.md)
 + 反馈
 	+ 邮箱：returnzhy1996@outlook.com
-	+ ISSUES：[<u>Github</u>](https://github.com/sheepzh/poetry/issues)
+	+ ISSUES：[<u>Github</u>](https://github.com/sheepzh/poetry/issues) | [<u>码云</u>](https://gitee.com/make-zero/poetry/issues)
 
 ## 目录
 
