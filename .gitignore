@@ -1,0 +1,11 @@
+﻿data/origin/*/*.bat
+data/origin/*/*.sh
+
+data/**/list.txt
+tool/.idea
+tool/target
+tool/tool.*
+
+**/__pycache__
+
+lib/jieba/cache
