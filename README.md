@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/poems-5695-yellowgreen)
 ![](https://img.shields.io/badge/poets-524-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
-<!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheepzh.poetry) -->
+![visitors](https://visitor-badge.glitch.me/badge?page_id=sheepzh.poetry)
 ![](https://img.shields.io/github/last-commit/sheepzh/poetry)
 ![](https://img.shields.io/github/commit-activity/w/sheepzh/poetry)
 
