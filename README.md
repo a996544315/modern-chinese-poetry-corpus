@@ -1,6 +1,8 @@
 
 # 华语现代诗歌集合
 
+<iframe src="./lib/analyze/poetcloud.html" width="1000px" height="600px" frameborder="0" scrolling="no"></iframe>
+
 ![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E7%8E%B0%E4%BB%A3%E8%AF%97-red)
 ![](https://img.shields.io/badge/poems-5695-yellowgreen)
 ![](https://img.shields.io/badge/poets-524-lightgrey)
@@ -12,15 +14,13 @@
 ## 前言
 
 + 该目录及子目录下所有作品著作权归原作者所有。**`禁止用于任何商业用途`**。
-+ 维护公约
-	+ 收录诗人而不创造诗人。
++ 收录诗人而不创造诗人。
 + 数据格式见 [<u>data/README.md</u>](./data/README.md)
 + 反馈
 	+ 邮箱：returnzhy1996@outlook.com
 	+ ISSUES：[<u>Github</u>](https://github.com/sheepzh/poetry/issues) | [<u>码云</u>](https://gitee.com/make-zero/poetry/issues)
 
 ## 目录
-
 
 ```
 +++ data     # 诗歌数据：原始数据、分词数据、意象分析数据
