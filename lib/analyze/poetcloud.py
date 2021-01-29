@@ -36,6 +36,6 @@ frequencies = frequencies[0:100]
 
 wc = (
     WordCloud().add(shape='circle', series_name="诗人分布",
-                    data_pair=frequencies, rotate_step=10)
+                    data_pair=frequencies, rotate_step=10, width=1000, height=600)
 )
 wc.render('poetcloud.html')

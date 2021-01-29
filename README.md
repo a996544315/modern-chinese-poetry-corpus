@@ -1,13 +1,15 @@
 
 # 华语现代诗歌集合
 
-<iframe src="./lib/analyze/poetcloud.html" width="1000px" height="600px" frameborder="0" scrolling="no"></iframe>
+<div align="center">
+	<img src="./doc/image/poet_cloud.png" width="100%">
+</div>
 
 ![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E7%8E%B0%E4%BB%A3%E8%AF%97-red)
 ![](https://img.shields.io/badge/poems-5695-yellowgreen)
 ![](https://img.shields.io/badge/poets-524-lightgrey)
 ![](https://img.shields.io/github/repo-size/sheepzh/poetry)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=sheepzh.poetry)
+<!-- ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheepzh.poetry) -->
 ![](https://img.shields.io/github/last-commit/sheepzh/poetry)
 ![](https://img.shields.io/github/commit-activity/w/sheepzh/poetry)
 

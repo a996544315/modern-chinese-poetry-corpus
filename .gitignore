@@ -9,3 +9,5 @@ tool/tool.*
 **/__pycache__
 
 lib/jieba/cache
+
+lib/analyze/poetcloud.html
