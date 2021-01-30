@@ -6,7 +6,6 @@ import os
 import random
 import numpy as np
 from pyecharts.charts import WordCloud
-from pyecharts.render import make_snapshot
 
 origin_dir_path = path.join('..', '..', 'data', 'origin')
 
