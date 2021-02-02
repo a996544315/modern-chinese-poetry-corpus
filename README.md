@@ -1,6 +1,4 @@
 
-# 华语现代诗歌集合
-
 <div align="center">
 	<img src="./doc/image/poet_cloud.png" width="100%">
 </div>
@@ -14,14 +12,16 @@
 ![](https://img.shields.io/github/last-commit/sheepzh/poetry)
 ![](https://img.shields.io/github/commit-activity/w/sheepzh/poetry)
 
-## 前言
+# STAR ME！！！！！PLS！！！！！
+
+## 写在前面
 
 + 该目录及子目录下所有作品著作权归原作者所有。**`禁止用于任何商业用途`**。
 + 收录诗人而不创造诗人。
 + 数据格式见 [<u>data/README.md</u>](./data/README.md)
 + 反馈
-	+ 邮箱：returnzhy1996@outlook.com
 	+ ISSUES：[<u>Github</u>](https://github.com/sheepzh/poetry/issues) | [<u>码云</u>](https://gitee.com/make-zero/poetry/issues)
+	+ 邮箱：returnzhy1996@outlook.com
 
 ## 目录
 
