@@ -70,7 +70,8 @@ for path, dir_list, file_list in seged_dir:
                                 continue
                             w = wordPart[0]
                             p = wordPart[1]
-                            if p in ['n', 'ns', 'nr', 'nt', 'nw', 'nz'] or p.endswith('_i'):
+                            # nr means the name of person
+                            if p in ['n', 'ns', 'nt', 'nw', 'nz'] or p.endswith('_i'):
                                 # all NOUNs and those marked with _i are imgaries
                                 imagery = None
                                 if w not in imageries:
